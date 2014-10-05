@@ -2,8 +2,9 @@
   "name": "node-hook",
   "version": "0.1.0",
   "description": "node github webhook test app",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/devcollectief/node-hook/issues"
   },
-  "homepage": "https://github.com/devcollectief/node-hook"
+  "homepage": "https://github.com/devcollectief/node-hook",
+  "dependencies": {
+    "express": "^4.9.5",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "ejs": "~0.8.5",
+    "gith": "^1.0.4",
+    "shelljs": "^0.3.0"
+  }
 }
