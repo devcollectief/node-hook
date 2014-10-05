@@ -1,6 +1,6 @@
 {
   "name": "node-hook",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "node github webhook test app",
   "main": "app.js",
   "scripts": {
