@@ -1,0 +1,26 @@
+{
+  "name": "node-hook",
+  "version": "0.1.0",
+  "description": "node github webhook test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devcollectief/node-hook.git"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "webhook",
+    "node",
+    "payload"
+  ],
+  "author": "Tim Kock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devcollectief/node-hook/issues"
+  },
+  "homepage": "https://github.com/devcollectief/node-hook"
+}
